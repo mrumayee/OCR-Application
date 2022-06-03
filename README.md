@@ -14,14 +14,14 @@ PIL
 Tesseract.
 
 
-We can do the above by simply typing “pip install name-python”.
-2.	But for installation of tesseract(library mainly used for ocr application) ,you have to download the tesseract library and then during the installation process you have to select the languages for which the above library tesseract should work for(if selected nothing then by default only English language is selected).Then finally go to the command prompt and write ‘pip install tesseract’ and tesseract is finally installed and you can start your coding.
-3.	OpenCV already contains many pre-trained classifiers for face, eyes, smile etc. Those XML files are stored in OpenCV/data/haarcascades/ folder. We need to download it 
+* We can do the above by simply typing **“pip install name-python”** .
+* But for installation of tesseract(library mainly used for ocr application) ,you have to download the **tesseract library** and then during the installation process you have to select the languages for which the above library tesseract should work for(if selected nothing then by default only English language is selected).Then finally go to the command prompt and write ‘pip install tesseract’ and tesseract is finally installed and you can start your coding.
+* OpenCV already contains many pre-trained classifiers for face, eyes, smile etc. Those XML files are stored in OpenCV/data/haarcascades/ folder. We need to download it 
 In this application like for accessing photos in the directory of your computer you have to change the directory name as per your need in the code since different system have different locations where images are stored. 
-4.	For example (‘Users/Desktop/’ can be changed to ‘E:\’)
+* For example (‘Users/Desktop/’ can be changed to ‘E:\’)
 
 
-**Working of GUI app: -** 
+**Working of GUI app:-** 
 
 We have created button using Tkinter.  which perform certain functions on the images selected. We have also created a textbox to display the recognized information in OCR. We can perform different operations on images using this app.
 
