@@ -7,8 +7,15 @@
 The following code can be executed using any code editor(VS,Pycharm,etc). To run this application we are required to install libraries such as
 
 * Open CV
+```
+pip install opencv-python
+```
 * Tkinter
+ ```
+ pip install tk
+```
 * PIL
+
 * Tesseract.
 
 * We can do the above by simply typing
