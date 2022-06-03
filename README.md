@@ -4,17 +4,17 @@
 
 **Installation**
 
-
-
 The following code can be executed using any code editor(VS,Pycharm,etc). To run this application we are required to install libraries such as
 
-Open CV
-Tkinter
-PIL
-Tesseract.
+* Open CV
+* Tkinter
+* PIL
+* Tesseract.
 
-
-* We can do the above by simply typing **“pip install name-python”** .
+* We can do the above by simply typing
+ ```
+ pip install name-python
+```
 * But for installation of tesseract(library mainly used for ocr application) ,you have to download the **tesseract library** and then during the installation process you have to select the languages for which the above library tesseract should work for(if selected nothing then by default only English language is selected).Then finally go to the command prompt and write ‘pip install tesseract’ and tesseract is finally installed and you can start your coding.
 * OpenCV already contains many pre-trained classifiers for face, eyes, smile etc. Those XML files are stored in OpenCV/data/haarcascades/ folder. We need to download it 
 In this application like for accessing photos in the directory of your computer you have to change the directory name as per your need in the code since different system have different locations where images are stored. 
