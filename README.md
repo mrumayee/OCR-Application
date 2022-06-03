@@ -15,10 +15,18 @@ pip install opencv-python
  pip install tk
 ```
 * PIL
+```
+pip install PIL
+```
 
-* Tesseract.
+* Tesseract
+```
+import tesseract
 
-* We can do the above by simply typing
+```
+
+* We can download python from the following link.The supported versions for OpenCV are **Python 2.7, 3.4, 3.5, 3.6 and 3.7**  - [Offical Page ](https://www.python.org/downloads/release/python-368/ ).
+
  ```
  pip install name-python
 ```
